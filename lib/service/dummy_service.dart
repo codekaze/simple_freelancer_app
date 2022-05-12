@@ -1,0 +1,3 @@
+class DummyService {
+  reset() async {}
+}

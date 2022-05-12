@@ -1,8 +1,8 @@
 import 'package:get/get.dart';
-import '../view/home_view.dart';
+import '../view/dashboard_view.dart';
 
-class HomeController extends GetxController {
-  HomeView? view;
+class DashboardController extends GetxController {
+  DashboardView? view;
 
   @override
   void onInit() {

@@ -1,3 +1,4 @@
+import 'package:freelancer_app/module/dashboard/view/dashboard_view.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:flutter/material.dart';
 import 'package:freelancer_app/core.dart';
@@ -19,7 +20,11 @@ class MainNavigationView extends StatelessWidget {
           child: Scaffold(
             body: IndexedStack(
               index: controller.selectedIndex,
-              children: [],
+              children: [
+                DashboardView(),
+                MyBidView(),
+                ProfileView(),
+              ],
             ),
             bottomNavigationBar: BottomNavigationBar(
               unselectedItemColor: Colors.blueGrey[500],

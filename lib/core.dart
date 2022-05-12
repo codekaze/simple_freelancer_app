@@ -1,5 +1,3 @@
-export 'package:freelancer_app/module/home/controller/home_controller.dart';
-export 'package:freelancer_app/module/home/view/home_view.dart';
 export 'package:freelancer_app/module/login/controller/login_controller.dart';
 export 'package:freelancer_app/module/login/view/login_view.dart';
 export 'package:freelancer_app/module/main_navigation/controller/main_navigation_controller.dart';

@@ -4,4 +4,8 @@ class AuthService {
   login() async {
     await FirebaseAuth.instance.signInAnonymously();
   }
+
+  logout() async {
+    await FirebaseAuth.instance.signOut();
+  }
 }

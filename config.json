@@ -2,7 +2,7 @@
     "modules": [
         "login",
         "main_navigation",
-        "home",
+        "dashboard",
         "my_bid",
         "profile"
     ]

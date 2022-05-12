@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
-import '../controller/home_controller.dart';
+import '../controller/dashboard_controller.dart';
 
 import 'package:get/get.dart';
 
-class HomeView extends StatelessWidget {
+class DashboardView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return GetBuilder<HomeController>(
-      init: HomeController(),
+    return GetBuilder<DashboardController>(
+      init: DashboardController(),
       builder: (controller) {
         controller.view = this;
 
         return Scaffold(
           appBar: AppBar(
-            title: Text("Home"),
+            title: Text("Dashboard"),
           ),
         );
       },
